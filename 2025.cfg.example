@@ -1,0 +1,36 @@
+
+[App]
+# Leave blank unless you need to override the package name for your workflow.
+Package Name = 
+
+[Server]
+# Your RecNet/nameserver host (required for a private server setup).
+RecNet NameServer Host =
+
+# Leave blank for the no-Meta-account phone build flow unless you know you need it.
+Oculus App Id =
+
+[Photon]
+# Leave blank unless you are overriding Photon settings.
+App Id Realtime =
+App Id Voice =
+App Id Chat =
+
+# Custom Photon NameServer host/port (leave defaults to use Photon Cloud).
+Photon NameServer =
+Photon NameServer Port = 0
+
+[Advanced]
+# HTTP logging (recommended: keep enabled while debugging).
+Log HTTP = true
+
+# Full request/response body tracing.
+# WARNING: may log passwords/tokens. Do not share logs publicly with this enabled.
+Debug = false
+
+# Max characters logged per body before truncation.
+Log HTTP Body Max = 10000
+
+# Include noisy telemetry/heartbeat endpoints in HTTP logs.
+Log Noisy Endpoints = false
+

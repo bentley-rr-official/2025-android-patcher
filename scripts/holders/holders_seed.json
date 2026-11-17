@@ -1,0 +1,57 @@
+{
+ "_notes": {
+  "GofByf.hCzyqHTdV": "androidx FileProvider.getFileProviderPathsMetaData: ProviderInfo.loadXmlMetaData(pm, <field>); the exception text right after names it. Placeholder here crashed provider init (seen in a real log)",
+  "HXqx.yGkZaPfy.dSLPDvZlIMa": "FirebaseCommonRegistrar.getComponents: LibraryVersionComponent.create(<name>, KotlinDetector.detectVersion()) -> 'kotlin'",
+  "VNmv.AwtvjedzKR.HpOsFYDnEhYnDeh": "FirebaseCommonRegistrar android-platform lambda, returned after hasSystemFeature('android.hardware.type.embedded') -> 'embedded'",
+  "YxfuqKtAkbqoD.NCwLCcPBDkz": "androidx FileProvider.<clinit>: DEVICE_ROOT = new File(<field>) -> '/'",
+  "service names (8 fields)": "Context.getSystemService(<field>) whose result is check-cast to JobScheduler/AppOpsManager/ActivityManager/InputMethodManager/DisplayManager(x2)/CameraManager/AudioManager; each system-service class has exactly one service name constant",
+  "com.google.common.primitives.eR.hTPechBZV.fwVPS": "org.webrtc.JniHelper.getStringBytes: String.getBytes(<field>), catch UnsupportedEncodingException -> RuntimeException(\"ISO-8859-1 is unsupported\"). Placeholder made WebRTC's JNI CheckException abort() the process (seen in a real log, SIGABRT in UnityMain).",
+  "com.google.gson.internal.reflect.qry.HGEVBxxI.yUdOFj": "kotlin.text.Charsets.<clinit>: Charset.forName(<field>) followed by checkNotNullExpressionValue(..., 'forName(\"US-ASCII\")') -> 'US-ASCII'. Placeholder would throw in Kotlin's Charsets class init.",
+  "androidx.room.paging.rZNf.PpoYPegwB.bkaYLHrJkslWF": "kotlin.text.SystemProperties.<clinit>: System.getProperty(<field>) then Intrinsics.checkNotNull, stored in LINE_SEPARATOR -> 'line.separator'.",
+  "androidx.room.paging.rZNf.PpoYPegwB.qHhVYeMU": "guava AbstractFuture.<clinit>: Boolean.parseBoolean(System.getProperty(\"guava.concurrent.generate_cancellation_cause\", <field>)) -> default 'false'."
+ },
+ "holders": {
+  "androidx.arch.core.util.VNmv.AwtvjedzKR": {
+   "HpOsFYDnEhYnDeh": "embedded"
+  },
+  "androidx.lifecycle.Dz.GofByf": {
+   "hCzyqHTdV": "android.support.FILE_PROVIDER_PATHS"
+  },
+  "androidx.media3.exoplayer.drm.UTSW.aVhxy": {
+   "GKWdbAVtAnLJabU": "camera",
+   "JQSp": "input_method",
+   "vOFv": "display"
+  },
+  "androidx.media3.extractor.jpeg.Hv.zKDnDzxdZ": {
+   "FrWrrdTr": "audio"
+  },
+  "androidx.media3.extractor.metadata.dvbsi.HXqx.yGkZaPfy": {
+   "dSLPDvZlIMa": "kotlin"
+  },
+  "androidx.sqlite.util.Ca.xMgcUpRdtC": {
+   "NktJmGIuszW": "jobscheduler"
+  },
+  "com.google.android.gms.auth.api.Zav.FQNxqpn": {
+   "IinsztBHyF": "appops"
+  },
+  "com.google.android.gms.common.internal.service.jl.YxfuqKtAkbqoD": {
+   "NCwLCcPBDkz": "/"
+  },
+  "kotlin.enums.SLs.LFBIWUpTp": {
+   "gpHqARL": "display"
+  },
+  "okhttp3.internal.connection.ns.gfyPi": {
+   "JomsCFbesQco": "activity"
+  },
+  "com.google.common.primitives.eR.hTPechBZV": {
+   "fwVPS": "ISO-8859-1"
+  },
+  "com.google.gson.internal.reflect.qry.HGEVBxxI": {
+   "yUdOFj": "US-ASCII"
+  },
+  "androidx.room.paging.rZNf.PpoYPegwB": {
+   "bkaYLHrJkslWF": "line.separator",
+   "qHhVYeMU": "false"
+  }
+ }
+}
